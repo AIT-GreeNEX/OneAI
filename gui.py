@@ -4,8 +4,9 @@ from main import app
 
 FlaskUI(
     app,
-    width=1200,
-    height=800,
-    start_server='flask',
+    width = 1000,
+    height = 800,
+    maximized = True,
+    start_server = 'flask',
     close_server_on_exit=True
 ).run()
