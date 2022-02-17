@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   
     const port = 5001
-    const interval_request = 1 * 1000 //sec
+    const interval_request = 3 * 1000 //sec
     const ws = new WebSocket(`ws://localhost:${port}`)
 
     function keep_alive_server(){
