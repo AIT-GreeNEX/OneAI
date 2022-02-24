@@ -1,4 +1,5 @@
 
 
 def load_csv(path):
-    pass
+    a = path
+    return a
